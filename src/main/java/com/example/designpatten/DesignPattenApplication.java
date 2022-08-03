@@ -5,12 +5,14 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.h2.H2ConsoleProperties;
 
-public class DesignPattenApplication {
-    public static void main(String[] args) {
-        Settings instance = Settings.getInstance();
-        Settings instance1 = Settings.getInstance();
+import java.io.*;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 
-        System.out.println(instance == instance1);
+public class DesignPattenApplication {
+    public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
+        Settings settings = Settings.getInstance();
+        
     }
 
 }
