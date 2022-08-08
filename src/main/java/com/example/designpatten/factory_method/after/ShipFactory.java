@@ -1,4 +1,4 @@
-package com.example.designpatten.factoryMethod.after;
+package com.example.designpatten.factory_method.after;
 
 public interface ShipFactory {
 
@@ -25,6 +25,8 @@ public interface ShipFactory {
 
     Ship createShip();
 
-    void sendEmailTo(String email, Ship ship);
+    private void sendEmailTo(String email, Ship ship) {
+        System.out.println(email + " send mail...");
+    };
 
 }

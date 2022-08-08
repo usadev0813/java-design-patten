@@ -1,7 +1,7 @@
-package com.example.designpatten.factoryMethod.java;
+package com.example.designpatten.factory_method.java;
 
-import com.example.designpatten.factoryMethod.after.BlackShip;
-import com.example.designpatten.factoryMethod.after.WhiteShip;
+import com.example.designpatten.factory_method.after.BlackShip;
+import com.example.designpatten.factory_method.after.WhiteShip;
 
 public class SimpleFactory {
 

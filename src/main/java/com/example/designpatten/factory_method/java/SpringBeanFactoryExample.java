@@ -1,4 +1,4 @@
-package com.example.designpatten.factoryMethod.java;
+package com.example.designpatten.factory_method.java;
 
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

@@ -1,4 +1,4 @@
-package com.example.designpatten.factoryMethod.after;
+package com.example.designpatten.factory_method.after;
 
 public class WhiteShip extends Ship {
 
