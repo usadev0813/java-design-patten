@@ -1,4 +1,4 @@
-package com.example.designpatten.abstract_factory;
+package com.example.designpatten.abstract_factory.sample;
 
 import com.example.designpatten.factory_method.after.Ship;
 import com.example.designpatten.factory_method.after.ShipFactory;

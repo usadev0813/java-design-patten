@@ -1,7 +1,7 @@
 package com.example.designpatten.factory_method.after;
 
-import com.example.designpatten.abstract_factory.Anchor;
-import com.example.designpatten.abstract_factory.Wheel;
+import com.example.designpatten.abstract_factory.sample.Anchor;
+import com.example.designpatten.abstract_factory.sample.Wheel;
 
 public class Ship {
 

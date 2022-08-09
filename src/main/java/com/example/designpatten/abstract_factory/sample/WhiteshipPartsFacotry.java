@@ -1,4 +1,4 @@
-package com.example.designpatten.abstract_factory;
+package com.example.designpatten.abstract_factory.sample;
 
 public class WhiteshipPartsFacotry implements ShipPartsFactory {
     @Override
