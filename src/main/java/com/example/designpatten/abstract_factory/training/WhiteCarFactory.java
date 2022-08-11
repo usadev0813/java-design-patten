@@ -11,8 +11,8 @@ public class WhiteCarFactory implements DefaultCarFactory {
     @Override
     public Car createCar() {
         Car car = new Car();
-        car.setHandle(new WhiteHandle());
-        car.setWheel(new WhiteWheel());
+        car.setHandle(carPartsFactory.createHandle());
+        car.setWheel(carPartsFactory.createWheel());
         return car;
     }
 }
