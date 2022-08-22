@@ -1,6 +1,8 @@
 package com.example.designpatten.adapter;
 
-public class Account {
+import com.example.designpatten.adapter.security.UserDetails;
+
+public class Account implements UserDetails {
 
     private String name;
 
@@ -16,6 +18,12 @@ public class Account {
         this.name = name;
     }
 
+    @Override
+    public String getUsername() {
+        return this.name;
+    }
+
+    @Override
     public String getPassword() {
         return password;
     }

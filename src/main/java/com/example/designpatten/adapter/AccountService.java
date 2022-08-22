@@ -1,6 +1,9 @@
 package com.example.designpatten.adapter;
 
-public class AccountService {
+import com.example.designpatten.adapter.security.UserDetails;
+import com.example.designpatten.adapter.security.UserDetailsService;
+
+public class AccountService implements UserDetailsService {
 
     public Account findAccountByUsername(String username) {
         Account account = new Account();
@@ -11,10 +14,13 @@ public class AccountService {
     }
 
     public void createNewAccount(Account account) {
-
     }
 
     public void updateAccount(Account account) {
+    }
 
+    @Override
+    public UserDetails loadUser(String username) {
+        return findAccountByUsername(username);
     }
 }
